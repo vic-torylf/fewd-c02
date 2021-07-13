@@ -1,0 +1,117 @@
+html {
+
+}
+
+body {
+    background-color: black;
+    font-size: 12px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.navigation {
+    display: flex;
+}
+
+.logo, .links {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.poster {
+    background-image: url("https://content.codecademy.com/courses/learn-bootstrap-4/adhoc/jumbotron.png");
+    height: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.poster .poster-text {
+    background-color: darkgray;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.poster .poster-text h2 {
+    font-size: 3rem;
+}
+
+.main-text h2 {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.main-text p {   
+    font-style: italic;
+    text-align: right;
+    font-weight: bold;
+}
+
+.main-text span {
+    font-weight: lighter;
+}
+
+.gymmic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gymmic .content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gymmic .boxes {
+    width: 30%;
+}
+
+.gymmic .img {
+    width:: 100%;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+    background-color: rgb(97, 96, 96);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.carousel-container .title {
+    color: white;
+    padding: 3rem;
+    font-size: 3.5rem;
+}
+
+.carousel-div {
+    width: 40%;
+}
+
+.carousel-item h5 {
+    background-color: rgb(97, 96, 96);
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 25px;
+}
+
+.carousel-item span {
+    font-weight: lighter;
+}
+
+footer {
+    color: darkgray;
+    text-align: center;
+}
